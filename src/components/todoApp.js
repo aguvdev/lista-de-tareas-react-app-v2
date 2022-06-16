@@ -33,7 +33,7 @@ export default function TodoApp() {
 
   function handleUpdate(id, value) {
 
-    if(title) {
+    if(value) {
       const temp = [...todos];
       const item = temp.find(item => item.id === id);
       item.title = value;

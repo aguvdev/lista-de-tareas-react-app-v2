@@ -1,0 +1,80 @@
+.todoContainer {
+  width: 500px;
+  margin: 100px auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.todoCreateForm {
+  display: flex;
+  gap: 5px;
+}
+
+.todoInput {
+  flex-grow: 1;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #999;
+}
+
+.buttonCreate {
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(26, 76, 212);
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color .25s ease;
+}
+
+.buttonCreate:hover {
+  background-color: rgb(8, 54, 139);
+}
+
+.todosContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.todo {
+  padding: 10px;
+  background-color: white;
+}
+
+.todoTitle {
+  flex: 1;
+  font-size: 20px;
+}
+
+.todoUpdateForm,
+.todoInfo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.button {
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(72, 122, 221);
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color .25s ease;
+}
+
+.button:hover{
+  background-color: rgb(34, 81, 177);
+}
+
+.buttonDelete{
+  background-color: rgb(169, 26, 26);
+}
+
+.button.buttonDelete:hover {
+  background-color: rgb(131, 12, 12);
+}

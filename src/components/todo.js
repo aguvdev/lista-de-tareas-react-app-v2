@@ -45,7 +45,7 @@ export default function Todo({ item, onUpdate, onDelete }) {
       <div className="todoInfo">
         <span className="todoTitle">{item.title}</span>
         <button className="button" onClick={() => setIsEdit(true)}>Edit</button>
-        <button className="button" onClick={handleClickDeleteTodo}>Delete</button>
+        <button className="button buttonDelete" onClick={handleClickDeleteTodo}>Delete</button>
       </div>
     );
   }
